@@ -26,7 +26,6 @@ class TC_Sensitivity
         try
         {
             var finalVerdict = TestVerdict.Pass;
-            Console.WriteLine($"TC_Sensitivity::START");
 
             if(!this.bse.IsDetected())
             {
@@ -65,7 +64,6 @@ class TC_Sensitivity
         finally
         {
             this.bse.CellOff();
-            Console.WriteLine($"TC_Sensitivity::END");
         }
     }
 
