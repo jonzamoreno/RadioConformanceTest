@@ -1,6 +1,6 @@
 
 
-namespace RadioConformanceTests.Scpi;
+namespace RadioConformanceTests.Drivers;
 
 public interface IScpiClient
 {
